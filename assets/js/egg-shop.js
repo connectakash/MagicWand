@@ -1,0 +1,36 @@
+$(document).ready(function(){
+    $("#noOfEggs").hide();
+    $("#noSandwichBread").hide();
+    $("#noSweetBread").hide();
+    $("#noMilkBread").hide();
+    $("#noAttaBread").hide();
+    $("#noWholeWheatBread").hide();
+    $("#noBrownBread").hide();
+    $("#noMultigrainBread").hide();
+
+
+  $('#eggs').click(function(){
+    $("#noOfEggs").toggle();
+  });
+  $('#sandwichbread').click(function(){
+    $("#noSandwichBread").toggle();
+  });
+  $('#sweetbread').click(function(){
+    $("#noSweetBread").toggle();
+  });
+  $('#brownbread').click(function(){
+    $("#noBrownBread").toggle();
+  });
+  $('#milkbread').click(function(){
+    $("#noMilkBread").toggle();
+  });
+  $('#attabread').click(function(){
+    $("#noAttaBread").toggle();
+  });
+  $('#wholewheatbread').click(function(){
+    $("#noWholeWheatBread").toggle();
+  });
+  $('#multigrainbread').click(function(){
+    $("#noMultigrainBread").toggle();
+  });
+});
